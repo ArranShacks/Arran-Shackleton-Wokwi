@@ -4,7 +4,7 @@ project:
   title:        "Arran's tinytapeout project"      # Project title
   author:       "Arran Shackleton"      # Your name
   discord:      "arran1748"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  "NAND gate"      # One line description of what your project does
+  description:  "6 bit encoder with binary output"      # One line description of what your project does
   language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -16,8 +16,8 @@ project:
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
 pinout:
   # Inputs
-  ui[0]: "input a"
-  ui[1]: "input b"
+  ui[0]: "encoder a"
+  ui[1]: "encoder b"
   ui[2]: ""
   ui[3]: ""
   ui[4]: ""
@@ -26,13 +26,13 @@ pinout:
   ui[7]: ""
 
   # Outputs
-  uo[0]: "output nand"
-  uo[1]: ""
-  uo[2]: ""
-  uo[3]: ""
-  uo[4]: ""
-  uo[5]: ""
-  uo[6]: ""
+  uo[0]: "Direction"
+  uo[1]: "Bit 1"
+  uo[2]: "Bit 2"
+  uo[3]: "Bit 3"
+  uo[4]: "Bit 4"
+  uo[5]: "Bit 5"
+  uo[6]: "Bit 6"
   uo[7]: ""
 
   # Bidirectional pins
